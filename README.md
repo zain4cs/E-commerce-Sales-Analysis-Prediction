@@ -14,7 +14,7 @@ Created derived features:
 AOV (Average Order Value) = grand_total / qty_ordered
 has_commission (flag column) for commission availability
 
-# 2. Feature Engineering:
+# 2. Feature Engineering: / 
 Encoded categorical variables using LabelEncoder.
 Scaled numerical columns (price, grand_total) using StandardScaler.
 Aggregated customer-level data:
