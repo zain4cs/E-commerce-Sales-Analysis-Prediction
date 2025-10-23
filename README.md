@@ -3,7 +3,7 @@
 This project focuses on analyzing and predicting e-commerce sales using data cleaning, preprocessing, and machine learning (Random Forest Regressor). The dataset contains customer transactions, order details, and product information. The goal was to understand key sales patterns and predict total revenue based on product and order features.
 
 📊 Project Workflow
-#1. Data Cleaning & Preprocessing
+# 1. Data Cleaning & Preprocessing
 
 Removed rows with missing or invalid values in essential columns (price, grand_total, etc.).
 Handled missing prices using SKU-wise median imputation.
@@ -14,7 +14,7 @@ Created derived features:
 AOV (Average Order Value) = grand_total / qty_ordered
 has_commission (flag column) for commission availability
 
-#2. Feature Engineering:
+# 2. Feature Engineering:
 Encoded categorical variables using LabelEncoder.
 Scaled numerical columns (price, grand_total) using StandardScaler.
 Aggregated customer-level data:
