@@ -28,43 +28,43 @@ Monthly sales trends were plotted to observe revenue fluctuations over time.
 Y-axis represented total monthly sales (in scientific format like 1e8 = 100,000,000).
 
 # 4. Modeling
-Model Used: Random Forest Regressor
-Target Variable: grand_total
-Features Used
-price
-qty_ordered
-discount_amount
-Data Split: 80% training and 20% testing
+Model Used: Random Forest Regressor<br>
+Target Variable: grand_total<br>
+Features Used<br>
+price<br>
+qty_ordered<br>
+discount_amount<br>
+Data Split: 80% training and 20% testing<br>
 
 # 5. Model Evaluation
-Metric	Score
-**R² Score:**<br>	0.9726
+Metric	Score<br>
+**R² Score:**	0.9726
 **MAE (Mean Absolute Error):**	2186.90
 
-✅ Interpretation:
+✅ Interpretation:<br>
 The model explains about 97.26% of the variance in total sales (grand_total), with an average prediction error of around Rs. 2186, which indicates strong model accuracy and reliable predictions.
 
 # 6. Files Saved:
-ecom_cleaned.parquet – Full cleaned dataset
+ecom_cleaned.parquet – Full cleaned dataset<br>
 ecom_sample.parquet – 100K row sample for quick testing
 
-⚙️ Technologies Used:
-Python
-Pandas
-NumPy
-Matplotlib
+⚙️ Technologies Used:<br>
+Python, 
+Pandas, 
+NumPy, 
+Matplotlib, 
 Scikit-learn
 
-📁 Project Structure
-📦 Ecom-Sales-Analysis
- ┣ 📜 ecom_cleaned.parquet
- ┣ 📜 ecom_sample.parquet
- ┣ 📜 README.md
- ┣ 📜 ecom_analysis.ipynb
- ┗ 📊 graphs/
+📁 Project Structure:<br>
+📦 Ecom-Sales-Analysis<br>
+ ┣ 📜 ecom_cleaned.parquet<br>
+ ┣ 📜 ecom_sample.parquet<br>
+ ┣ 📜 README.md<br>
+ ┣ 📜 ecom_analysis.ipynb<br>
+ ┗ 📊 graphs/<br>
 
-💡 Key Insights
+💡 Key Insights<br>
 
-Seasonal spikes in monthly revenue were observed around late 2017.
-Outlier handling significantly improved model accuracy.
+Seasonal spikes in monthly revenue were observed around late 2017.<br>
+Outlier handling significantly improved model accuracy.<br>
 Strong correlation between price and total order value.
