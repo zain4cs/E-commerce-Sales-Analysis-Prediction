@@ -1,4 +1,4 @@
-#E-commerce Sales Analysis & Prediction
+# E-commerce Sales Analysis & Prediction
 
 This project focuses on analyzing and predicting e-commerce sales using data cleaning, preprocessing, and machine learning (Random Forest Regressor). The dataset contains customer transactions, order details, and product information. The goal was to understand key sales patterns and predict total revenue based on product and order features.
 
