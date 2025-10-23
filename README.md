@@ -38,7 +38,7 @@ Data Split: 80% training and 20% testing
 
 # 5. Model Evaluation
 Metric	Score
-**R² Score:**	0.9726
+**R² Score:**<br>	0.9726
 **MAE (Mean Absolute Error):**	2186.90
 
 ✅ Interpretation:
