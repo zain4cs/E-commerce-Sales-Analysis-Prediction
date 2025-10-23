@@ -38,8 +38,8 @@ Data Split: 80% training and 20% testing
 
 # 5. Model Evaluation
 Metric	Score
-R² Score	0.9726
-MAE (Mean Absolute Error)	2186.90
+**R² Score:**	0.9726
+**MAE (Mean Absolute Error):**	2186.90
 
 ✅ Interpretation:
 The model explains about 97.26% of the variance in total sales (grand_total), with an average prediction error of around Rs. 2186, which indicates strong model accuracy and reliable predictions.
