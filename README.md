@@ -4,7 +4,6 @@ This project focuses on analyzing and predicting e-commerce sales using data cle
 
 📊 Project Workflow
 # 1. Data Cleaning & Preprocessing
-
 Removed rows with missing or invalid values in essential columns (price, grand_total, etc.).
 Handled missing prices using SKU-wise median imputation.
 Capped extreme percentile values (1st and 99th) to reduce the effect of outliers.
@@ -14,7 +13,7 @@ Created derived features:
 AOV (Average Order Value) = grand_total / qty_ordered
 has_commission (flag column) for commission availability
 
-# 2. Feature Engineering: / 
+# 2. Feature Engineering: 
 Encoded categorical variables using LabelEncoder.
 Scaled numerical columns (price, grand_total) using StandardScaler.
 Aggregated customer-level data:
@@ -24,21 +23,20 @@ total_spend (total amount spent)
 avg_order_value (average order size)
 recency_days (days since last purchase)
 
-3. Visualization:
+# 3. Visualization:
 Monthly sales trends were plotted to observe revenue fluctuations over time.
 Y-axis represented total monthly sales (in scientific format like 1e8 = 100,000,000).
 
-4. Modeling
+# 4. Modeling
 Model Used: Random Forest Regressor
 Target Variable: grand_total
-
-Features Used:
+Features Used
 price
 qty_ordered
 discount_amount
 Data Split: 80% training and 20% testing
 
-5. Model Evaluation
+# 5. Model Evaluation
 Metric	Score
 R² Score	0.9726
 MAE (Mean Absolute Error)	2186.90
@@ -46,7 +44,7 @@ MAE (Mean Absolute Error)	2186.90
 ✅ Interpretation:
 The model explains about 97.26% of the variance in total sales (grand_total), with an average prediction error of around Rs. 2186, which indicates strong model accuracy and reliable predictions.
 
-6. Files Saved:
+# 6. Files Saved:
 ecom_cleaned.parquet – Full cleaned dataset
 ecom_sample.parquet – 100K row sample for quick testing
 
